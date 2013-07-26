@@ -1,3 +1,13 @@
+/*
+Colour Palette
+==============
+blue: #C6E1D8
+red: #A63A00
+beige1: #EDE8DD
+beige2: #CBC2B3
+brown: #664B23
+*/
+
 body {
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -13,12 +23,14 @@ body {
 
 .navbar-inner {
     padding: 20px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fefefe)); /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient(top, #ffffff, #fefefe); /* Chrome 10+, Saf5.1+ */
-    background-image: -moz-linear-gradient(top, #ffffff, #fefefe); /* FF3.6+ */
-    background-image: -ms-linear-gradient(top, #ffffff, #fefefe); /* IE10 */
-    background-image: -o-linear-gradient(top, #ffffff, #fefefe); /* Opera 11.10+ */
-    background-image: linear-gradient(top, #ffffff, #fefefe);
+    background-color: #A63A00;
+    background-image: none;
+
+}
+
+.navbar .brand, .navbar .nav>li>a  {
+    color: #EDE8DD;
+    text-shadow: none;
 }
 
 #Header {
