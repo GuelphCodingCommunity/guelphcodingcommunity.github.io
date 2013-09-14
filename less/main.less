@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Iconsolata;
+    src: url('../font/Inconsolata.otf'),
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Regular.ttf'),
+}
+
+@backgroundImage: url('../img/shattered.png');
+
+@contentFont: 'Open Sans';
+@contentColor: #333333;
+
+@navbarFont: @contentFont;
+@navbarColor: white;
+@navbarLinkColor: white;
+@navbarBgColor: #A60000;
+
+@headerFont: Inconsolata, @contentFont;
+@headerColor: white;
+@headerLinkColor: @contentColor;
+@headerBgColor: #BF3030;
+
+@footerFont: @contentFont;
+@footerColor: white;
+@footerLinkColor: white;
+@footerBgColor: #333333;
+
+html, body {
+    height: 100%;
+    padding: 0;
+}
+
+body {
+    font-family: @contentFont;
+    background-image: @backgroundImage;
+}
+
+.navbar {
+    margin: 0;
+
+    .navbar-inner {
+        padding: 20px;
+        background-color: @navbarBgColor;
+        background-image: none;
+        border: 0;
+    }
+    
+    .brand {
+        padding: 0px;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .brand, .nav>li>a {
+        color: @navbarLinkColor;
+        font-weight: 300;
+
+        &:hover {
+            color: @navbarLinkColor;
+        }
+    }
+}
+
+#Wrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -80px;
+}
+
+#Header {
+    text-align: center;
+    color: @headerColor;
+
+    background-color: @headerBgColor;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+
+    .title {
+        font-family: @headerFont;
+    }
+    
+    .subtitle {
+        font-family: @contentFont;
+        font-weight: 300;
+    }
+}
+
+#Content {
+    .container-fluid {
+        margin: 80px;
+    }
+}
+
+#Callouts {
+    .callout {
+        text-align: center;
+    }
+}
+
+#AboutUs {
+    p {
+        text-align: justify;
+        max-width: 675px;
+    }
+
+    .lead {
+        text-align: left;
+    }
+}
+
+#Execs, #SpecialThanks {
+    .span2 {
+        text-align: center;
+
+        label {
+            color: @contentColor;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#Footer {
+    height: 80px;
+    background-color: @footerBgColor;
+
+    .container-fluid .row-fluid {
+        margin-top: 20px;
+    }
+}
+
+#FooterFix {
+    height: 80px;
+}
+
+#FooterSocial {
+    text-align: center;
+
+    a, a:hover {
+        color: @footerColor;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+}
+

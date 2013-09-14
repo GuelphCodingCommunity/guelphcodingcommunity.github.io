@@ -15,6 +15,6 @@ Name: Ryan Wilson-Perkin
 Contact:
 
 /* THANKS */
-
+Name: Dan Gillis
 
 /* SITE */

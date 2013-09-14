@@ -1,68 +1,106 @@
-/*
-Colour Palette
-==============
-blue: #C6E1D8
-red: #A63A00
-beige1: #EDE8DD
-beige2: #CBC2B3
-brown: #664B23
-*/
-
+@font-face {
+  font-family: Iconsolata;
+  src: url('../font/Inconsolata.otf');
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/OpenSans-Regular.ttf');
+}
+html,
 body {
-    padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  padding: 0;
 }
-
-#Navbar {
-
+body {
+  font-family: 'Open Sans';
+  background-image: url('../img/shattered.png');
 }
-
 .navbar {
-    margin: 0px;
+  margin: 0;
 }
-
-.navbar-inner {
-    padding: 20px;
-    background-color: #A63A00;
-    background-image: none;
-
+.navbar .navbar-inner {
+  padding: 20px;
+  background-color: #a60000;
+  background-image: none;
+  border: 0;
 }
-
-.navbar .brand, .navbar .nav>li>a  {
-    color: #EDE8DD;
-    text-shadow: none;
+.navbar .brand {
+  padding: 0px;
 }
-
+.navbar .brand img {
+  width: 100px;
+}
+.navbar .brand,
+.navbar .nav > li > a {
+  color: #ffffff;
+  font-weight: 300;
+}
+.navbar .brand:hover,
+.navbar .nav > li > a:hover {
+  color: #ffffff;
+}
+#Wrapper {
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto -80px;
+}
 #Header {
-    text-align: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: #bf3030;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
-
-h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
+#Header .title {
+  font-family: Inconsolata, 'Open Sans';
 }
-
-#Callouts .container {
-    padding: 20px;
+#Header .subtitle {
+  font-family: 'Open Sans';
+  font-weight: 300;
 }
-
-.callout {
-    text-align: center;
+#Content .container-fluid {
+  margin: 80px;
 }
-
-#Content .container {
-    padding: 20px
+#Callouts .callout {
+  text-align: center;
 }
-
+#AboutUs p {
+  text-align: justify;
+  max-width: 675px;
+}
+#AboutUs .lead {
+  text-align: left;
+}
+#Execs .span2,
+#SpecialThanks .span2 {
+  text-align: center;
+}
+#Execs .span2 label,
+#SpecialThanks .span2 label {
+  color: #333333;
+  font-weight: bold;
+}
+#Execs .span2 label:hover,
+#SpecialThanks .span2 label:hover {
+  text-decoration: none;
+}
 #Footer {
-    height: 150px;
-    background-color: rgb(51, 51, 51);
-    color: #f5f5f5;
+  height: 80px;
+  background-color: #333333;
 }
-
-#Footer .container .row-fluid {
-    margin: 20px;
+#Footer .container-fluid .row-fluid {
+  margin-top: 20px;
 }
-
+#FooterFix {
+  height: 80px;
+}
 #FooterSocial {
-    text-align: center;
+  text-align: center;
+}
+#FooterSocial a,
+#FooterSocial a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 5px;
 }

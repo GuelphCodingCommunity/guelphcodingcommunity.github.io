@@ -6,7 +6,6 @@
     <title>Guelph Coding Community</title>
 
     <link type="text/plain" rel="author" href="humans.txt" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Oswald' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -14,87 +13,73 @@
 
   </head>
   <body>
-    <div id="Navbar" class="navbar navbar-static-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Guelph Coding Community</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav pull-right">
-              <li><a href="about.html">About</a></li>
-              <li><a href="events.html">Events</a></li>
-            </ul>
+    <div id="Wrapper">
+      <div id="Navbar" class="navbar navbar-static-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="index.html"><img src="./img/logo.png" alt="Guelph Coding Community"></a>
+            <div class="nav-collapse collapse">
+              <ul class="nav pull-right">
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="Header" class="hero-unit">
-      <h1 class="title">Level up</h1>
-      <h2 class="subtitle">Let us help you become a better programmer</h2>
-    </div>
+      <div id="Content">
+        <div id="Header" class="hero-unit">
+          <h1 class="title">Level up</h1>
+          <h2 class="subtitle">Let us help you become better a better programmer</h2>
+        </div>
 
-    <div id="Callouts">
-      <div class="container">
-        <div class="row-fluid">
-          <div id="LearnCallout" class="callout span4">
-            <i class="icon-group icon-5x"></i>
-            <h3>Learn</h3>
-            <p>
-              Our workshops are designed by passionate students and guest speakers to teach you new skills.
-              These workshops are targeted at students who share our love of coding.
-            </p>
+        <div id="Callouts" class="container-fluid">
+          <div class="row-fluid">
+            <div id="LearnCallout" class="callout span4">
+              <i class="icon-group icon-5x"></i>
+              <h3>Learn</h3>
+              <p>
+                Our workshops are designed by passionate students and guest speakers to teach you new skills.
+                These workshops are targeted at students who share our love of coding.
+              </p>
+            </div>
+            <div id="CodeCallout" class="callout span4">
+              <i class="icon-terminal icon-5x"></i>
+              <h3>Code</h3>
+              <p>
+                Apply the skills that you picked up at workshops to real world problems.
+                We host hackathons to bring the community together and reward those who excel.
+              </p>
+            </div>
+            <div id="TeachCallout" class="callout span4">
+              <i class="icon-comments icon-5x"></i>
+              <h3>Teach</h3>
+              <p>
+                Run your very own workshop or help to host a hackathon.
+                We think that everyone is a teacher and we want experienced students to expand our curriculum.
+              </p>
+            </div>
           </div>
-          <div id="CodeCallout" class="callout span4">
-            <i class="icon-terminal icon-5x"></i>
-            <h3>Code</h3>
-            <p>
-              Apply the skills that you picked up at workshops to real world problems.
-              We host hackathons to bring the community together and reward those who excel.
-            </p>
-          </div>
-          <div id="TeachCallout" class="callout span4">
-            <i class="icon-comments icon-5x"></i>
-            <h3>Teach</h3>
-            <p>
-              Run your very own workshop or help to host a hackathon.
-              We think that everyone is a teacher and we want experienced students to expand our curriculum.
-            </p>
-          </div>
-          </div>
+        </div>
       </div>
-    </div>
-
-    <div id="Content">
-      <div class="container">
-
-      </div>
+      <div id="FooterFix"></div>
     </div>
 
     <div id="Footer">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row-fluid">
-          <div id="FooterLinks" class="span4 footer-left">
-            <label>Navigate</label>
-            <a href="about.html">About</a> <br />
-            <a href="events.html">Events</a>
-          </div>
-          <div id="FooterSocial" class="span4">
+          <div id="FooterSocial" class="span12">
             <div class="social-icons">
               <a href="https://www.facebook.com/groups/guelphcodingcommunity/"><i class="icon-facebook-sign icon-3x"></i></a>
               <a href="mailto:guelphcodingcommunity@gmail.com"><i class="icon-envelope icon-3x"></i></a>
               <a href="https://github.com/guelphcodingcommunity"><i class="icon-github-sign icon-3x"></i></a>
             </div>
-          </div>
-          <div id="FooterMission" class="span4">
-            <label>About us</label>
-            <p>
-              We're a group of University of Guelph students who believe that we can build a great community of coders by focusing on collaboration and competition.
-            </p>
           </div>
         </div>
       </div>
@@ -102,6 +87,5 @@
 
     <script rel="text/javascript" src="js/jquery-1.10.1.min.js"></script>
     <script rel="text/javascript" src="js/bootstrap.min.js"></script>
-    <script rel="text/javascript" src="js/main.js"></script>
   </body>
 </html>
