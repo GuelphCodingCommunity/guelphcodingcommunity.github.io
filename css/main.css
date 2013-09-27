@@ -85,6 +85,15 @@ body {
 #SpecialThanks .span2 label:hover {
   text-decoration: none;
 }
+#Events hr {
+  color: whitesmoke;
+}
+#Events .event {
+  max-width: 675px;
+  padding: 10px;
+  border: 1px solid #333333;
+  background: whitesmoke;
+}
 #Footer {
   height: 80px;
   background-color: #333333;
