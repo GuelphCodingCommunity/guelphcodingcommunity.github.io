@@ -1,0 +1,5 @@
+name: Guelph Coding Community
+markdown: redcarpet
+pygments: true
+exclude: [less, .git, .gitignore, makefile, README.md]
+timezone: Canada/Eastern
