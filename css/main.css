@@ -85,14 +85,18 @@ body {
 #SpecialThanks .span2 label:hover {
   text-decoration: none;
 }
-#Events hr {
-  color: whitesmoke;
+#Events ul {
+  list-style-type: none;
 }
 #Events .event {
   max-width: 675px;
   padding: 10px;
   border: 1px solid #333333;
   background: whitesmoke;
+  margin-bottom: 10px;
+}
+#Post {
+  max-width: 675px;
 }
 #Footer {
   height: 80px;

@@ -4,38 +4,14 @@ title: Events
 ---
 <div id="Content">
   <div id="Events" class="container-fluid">
-    <div id="UpcomingEvents" class="row-fluid">
-      <div class="span12">
-        <h1>Upcoming Events</h1>
-      </div>
-    </div>
-    <hr />
-    <div id="PastEvents" class="row-fluid">
-      <div class="span12">
-        <h1>Past Events</h1>
-        <div class="event">
-          <h2>General Meeting</h2>
-          <h5><i class="icon-calendar"></i> Wednesday 23/10/2013 @ 6:00 pm - 8:00 pm</h5>
-          <h5><i class="icon-map-marker"></i> University of Guelph, Reynolds Room 114 (MacLab)</h5>
-          <h5><a href="https://www.facebook.com/events/661717080528634"><i class="icon-facebook-sign"></i> Join on Facebook</a></h5>
-          <p> Let's have a casual meeting to talk about what projects people are working on. Nothing is too small!</p>
-          <p>This will be an opportunity to show off what you learned in a new language, ask for feedback on a design, or ask questions.</p>
-          <p>The execs will be there to answer your questions so come by if you've got some free time Wednesday evening.</p>
-        </div>
-        <div class="event">
-          <h2>GCC First Event</h2>
-          <h5><i class="icon-calendar"></i> Wednesday 9/10/2013 @ 7:00 pm - 10:00 pm</h5>
-          <h5><i class="icon-map-marker"></i> University of Guelph, Reynolds Room 114 (MacLab)</h5>
-          <h5><a href="https://www.facebook.com/events/356994651102198"><i class="icon-facebook-sign"></i> Join on Facebook</a></h5>
-          <p>Your execs have been working very hard over the summer and we're happy to finally bring you the first installment of the GCC workshops. We'll have two execs leading talks for this event and a round of lightning talks at the end for anyone who wants to show off something they're passionate about. Send us an email if you're interested in giving a talk, and we'll see you all very soon!</p>
-          <h4>Building with Bootstrap</h4>
-          <strong>Ryan Wilson-Perkin</strong>
-          <p>This workshop will help you create your first mobile responsive website. You're going to use LESS, Javascript, and the Bootstrap framework to make a fast, beautiful website that you can use to show off your portfolio. You will need a laptop. If you cannot bring a laptop, a computer may be available for you to work on.</p>
-          <h4>Google-Fu</h4>
-          <strong>Danielle Fudger</strong>
-          <p>In this talk, Dani will be teaching you how to use your Google-Fu to become a search engine master. Her talk will include hidden features to improve your results and how to find the right resources for your coding assignments. You may want a laptop in order to try the search patterns you learn.</p>
-        </div>
-      </div>
-    </div>
+    <ul>
+      {% for post in site.categories.events %}
+        <li class="event">
+          <h1>{{ post.title }}</h1>
+          <p>{{ post.excerpt }}</p>
+          <a href="{{ post.url }}">View event</a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
