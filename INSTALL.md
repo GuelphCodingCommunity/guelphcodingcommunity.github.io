@@ -39,7 +39,6 @@ For more information refer to [jekyllrb.com](http://jekyllrb.com/docs/installati
 Running with Jekyll
 -------------------
 
-Basic Usage
 The Jekyll gem makes a jekyll executable available to you in your Terminal window. You can use this command in a number of ways:
 
     $ jekyll build
