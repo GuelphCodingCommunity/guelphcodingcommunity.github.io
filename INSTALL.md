@@ -6,6 +6,12 @@ Install Ruby
 
 OS X and most Linux systems come with Ruby pre-installed. 
 
+You can check whether you have Ruby installed by running:
+    
+    $ ruby --version
+    
+Your Ruby version should begin with 1.9.3 or 2.0.0. If you've got that, you're all set.
+
 For more information refer to [ruby-lang.org](https://www.ruby-lang.org/en/downloads/).
 
 Install RVM
