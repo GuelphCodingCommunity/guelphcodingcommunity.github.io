@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GCC | {{ page.title }}</title>
+    {% include meta.html %}
+    {% include google-analytics.html %}
+    {% include styles.html  %}
+  </head>
+  <body>
+    <div id="Wrapper">
+      {% include navbar.html %}
+      <div id="Content">
+        <div class="container-fluid">
+          <div id="Post">
+            <h1>{{ page.title }}</h1>
+            <p>
+              <strong><i class="icon-calendar"></i> {{ page.eventinfo.date }} @ {{page.eventinfo.time }}</strong>
+            </p>
+            <p>
+              <strong><i class="icon-map-marker"></i> {{ page.eventinfo.location }} </strong>
+            </p>
+            <p>
+              <strong><a href="{{ page.eventinfo.facebookurl }}"><i class="icon-facebook-sign"></i> Join on Facebook</a></strong>
+            </p>
+            {{ content }}
+          </div>
+        </div>
+      </div>
+      <div id="FooterFix"></div>
+    </div>
+    {% include footer.html %}
+    {% include javascript.html %}
+  </body>
+</html>

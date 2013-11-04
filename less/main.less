@@ -12,6 +12,7 @@
 
 @contentFont: 'Open Sans';
 @contentColor: #333333;
+@contentMaxWidth: 675px;
 
 @navbarFont: @contentFont;
 @navbarColor: white;
@@ -106,7 +107,7 @@ body {
 #AboutUs {
     p {
         text-align: justify;
-        max-width: 675px;
+        max-width: @contentMaxWidth;
     }
 
     .lead {
@@ -130,15 +131,20 @@ body {
 }
 
 #Events {
-    hr {
-        color: whitesmoke;
+    ul {
+        list-style-type: none;
     }
     .event {
-        max-width: 675px;
+        max-width: @contentMaxWidth;
         padding: 10px;
         border: 1px solid @contentColor;
         background: whitesmoke;
+        margin-bottom: 10px;
     }
+}
+
+#Post  {
+    max-width: @contentMaxWidth;
 }
 
 #Footer {
