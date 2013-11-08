@@ -59,7 +59,7 @@ body {
   font-family: 'Open Sans';
   font-weight: 300;
 }
-#Content .container-fluid {
+#Content .container {
   margin: 80px;
 }
 #Callouts .callout {
@@ -102,7 +102,7 @@ body {
   height: 80px;
   background-color: #333333;
 }
-#Footer .container-fluid .row-fluid {
+#Footer .container .row-fluid {
   margin-top: 20px;
 }
 #FooterFix {
