@@ -72,17 +72,17 @@ body {
 #AboutUs .lead {
   text-align: left;
 }
-#Execs .span2,
-#SpecialThanks .span2 {
+#Execs .col-md-2,
+#SpecialThanks .col-md-2 {
   text-align: center;
 }
-#Execs .span2 label,
-#SpecialThanks .span2 label {
+#Execs .col-md-2 label,
+#SpecialThanks .col-md-2 label {
   color: #333333;
   font-weight: bold;
 }
-#Execs .span2 label:hover,
-#SpecialThanks .span2 label:hover {
+#Execs .col-md-2 label:hover,
+#SpecialThanks .col-md-2 label:hover {
   text-decoration: none;
 }
 #Events ul {
