@@ -102,7 +102,7 @@ body {
   height: 80px;
   background-color: #333333;
 }
-#Footer .container .row-fluid {
+#Footer .container .row {
   margin-top: 20px;
 }
 #FooterFix {
