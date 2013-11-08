@@ -59,7 +59,8 @@ body {
   font-weight: 300;
 }
 #Content .container {
-  margin: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 #Callouts .callout {
   text-align: center;
