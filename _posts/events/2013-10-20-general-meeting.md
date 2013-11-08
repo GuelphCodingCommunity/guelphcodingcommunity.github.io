@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: event 
 title: General Meeting
 tags: 
 - meeting

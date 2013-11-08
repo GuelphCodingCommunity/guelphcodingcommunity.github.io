@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: event 
 title: 
 tags: 
 - tag 1

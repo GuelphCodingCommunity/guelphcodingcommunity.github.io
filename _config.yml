@@ -1,5 +1,5 @@
 name: Guelph Coding Community
 markdown: redcarpet
 pygments: true
-exclude: [less, .git, .gitignore, README.md, INSTALL.md, Rakefile, _posts/template.md]
+exclude: [less, .git, .gitignore, README.md, INSTALL.md, Rakefile, _posts/events/template.md, _posts/news/template.md]
 timezone: Canada/Eastern

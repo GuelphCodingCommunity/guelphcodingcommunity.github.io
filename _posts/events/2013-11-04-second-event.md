@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: event 
 title: Tips to Technical Interviews
 tags: 
 - workshop

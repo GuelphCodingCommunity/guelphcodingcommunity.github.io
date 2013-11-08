@@ -1,0 +1,17 @@
+---
+layout: default
+title: Events
+---
+<div id="Content">
+  <div id="Events" class="container-fluid">
+    <ul>
+      {% for post in site.categories.news %}
+        <li class="post">
+          <h1>{{ post.title }}</h1>
+          <p>{{ post.excerpt }}</p>
+          <a href="{{ post.url }}">View event</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
