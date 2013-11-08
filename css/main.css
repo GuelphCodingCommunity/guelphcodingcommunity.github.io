@@ -20,7 +20,7 @@ body {
   padding: 20px;
   background-color: #a60000;
   background-image: none;
-  border: 0;
+  border-radius: 0;
 }
 .navbar .navbar-brand {
   padding: 0px;
@@ -36,6 +36,7 @@ body {
 .navbar .navbar-brand:hover,
 .navbar .nav > li > a:hover {
   color: #ffffff;
+  background-color: #a60000;
 }
 #Wrapper {
   min-height: 100%;
