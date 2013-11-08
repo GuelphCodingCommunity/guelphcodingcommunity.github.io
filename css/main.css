@@ -17,8 +17,6 @@ body {
 }
 .navbar {
   margin: 0;
-}
-.navbar .navbar-inner {
   padding: 20px;
   background-color: #a60000;
   background-image: none;
