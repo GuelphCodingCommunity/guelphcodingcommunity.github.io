@@ -19,24 +19,24 @@ body {
   margin: 0;
   padding: 20px;
   background-color: #a60000;
-  background-image: none;
+  border: 0px;
   border-radius: 0;
-}
-.navbar .navbar-brand {
-  padding: 0px;
 }
 .navbar .navbar-brand img {
   width: 100px;
 }
-.navbar .navbar-brand,
-.navbar .nav > li > a {
-  color: #ffffff;
-  font-weight: 300;
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #910000;
 }
-.navbar .navbar-brand:hover,
-.navbar .nav > li > a:hover {
+.navbar .navbar-nav > li > a {
   color: #ffffff;
   background-color: #a60000;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #910000;
 }
 #Wrapper {
   min-height: 100%;
