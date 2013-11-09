@@ -87,6 +87,7 @@ body {
 }
 #Events ul {
   list-style-type: none;
+  padding: 0px;
 }
 #Events .event {
   max-width: 675px;
