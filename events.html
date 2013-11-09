@@ -2,17 +2,15 @@
 layout: default
 title: Events
 ---
-<div id="Content">
-  <div id="Events" class="container-fluid">
-    <ul>
-      {% for post in site.categories.events %}
-        <li class="event">
-          <h1>{{ post.title }}</h1>
-          <strong><i class="icon-calendar"></i> {{ post.eventinfo.date }} @ {{ post.eventinfo.time }}</strong>
-          <p>{{ post.excerpt }}</p>
-          <a href="{{ post.url }}">View event</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+<div id="Events" class="container">
+  <ul>
+    {% for post in site.categories.events %}
+      <li class="event">
+        <h1>{{ post.title }}</h1>
+        <strong><i class="fa fa-calendar"></i> {{ post.eventinfo.date }} @ {{ post.eventinfo.time }}</strong>
+        <p>{{ post.excerpt }}</p>
+        <a href="{{ post.url }}">View event</a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>

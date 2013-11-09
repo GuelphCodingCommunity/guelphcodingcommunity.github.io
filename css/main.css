@@ -1,10 +1,10 @@
 @font-face {
   font-family: Iconsolata;
-  src: url('/font/Inconsolata.otf');
+  src: url('/fonts/Inconsolata.otf');
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('/font/OpenSans-Regular.ttf');
+  src: url('/fonts/OpenSans-Regular.ttf');
 }
 html,
 body {
@@ -17,27 +17,30 @@ body {
 }
 .navbar {
   margin: 0;
-}
-.navbar .navbar-inner {
   padding: 20px;
   background-color: #a60000;
-  background-image: none;
-  border: 0;
+  border: 0px;
+  border-radius: 0;
 }
-.navbar .brand {
-  padding: 0px;
+.navbar .navbar-brand {
+  padding: 0;
+  margin-top: 10px;
 }
-.navbar .brand img {
+.navbar .navbar-brand img {
   width: 100px;
 }
-.navbar .brand,
-.navbar .nav > li > a {
-  color: #ffffff;
-  font-weight: 300;
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #910000;
 }
-.navbar .brand:hover,
-.navbar .nav > li > a:hover {
+.navbar .navbar-nav > li > a {
   color: #ffffff;
+  background-color: #a60000;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #910000;
 }
 #Wrapper {
   min-height: 100%;
@@ -57,10 +60,10 @@ body {
 }
 #Header .subtitle {
   font-family: 'Open Sans';
-  font-weight: 300;
 }
-#Content .container-fluid {
-  margin: 80px;
+#Content .container {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 #Callouts .callout {
   text-align: center;
@@ -72,21 +75,22 @@ body {
 #AboutUs .lead {
   text-align: left;
 }
-#Execs .span2,
-#SpecialThanks .span2 {
+#Execs .col-md-2,
+#SpecialThanks .col-md-2 {
   text-align: center;
 }
-#Execs .span2 label,
-#SpecialThanks .span2 label {
+#Execs .col-md-2 label,
+#SpecialThanks .col-md-2 label {
   color: #333333;
   font-weight: bold;
 }
-#Execs .span2 label:hover,
-#SpecialThanks .span2 label:hover {
+#Execs .col-md-2 label:hover,
+#SpecialThanks .col-md-2 label:hover {
   text-decoration: none;
 }
 #Events ul {
   list-style-type: none;
+  padding: 0px;
 }
 #Events .event {
   max-width: 675px;
@@ -102,7 +106,7 @@ body {
   height: 80px;
   background-color: #333333;
 }
-#Footer .container-fluid .row-fluid {
+#Footer .container .row {
   margin-top: 20px;
 }
 #FooterFix {

@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Iconsolata;
-    src: url('/font/Inconsolata.otf'),
+  font-family: Iconsolata;
+  src: url('/fonts/Inconsolata.otf'),
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('/font/OpenSans-Regular.ttf'),
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-Regular.ttf'),
 }
 
 @backgroundImage: url('/img/shattered.png');
@@ -30,143 +30,150 @@
 @footerBgColor: #333333;
 
 html, body {
-    height: 100%;
-    padding: 0;
+  height: 100%;
+  padding: 0;
 }
 
 body {
-    font-family: @contentFont;
-    background-image: @backgroundImage;
+  font-family: @contentFont;
+  background-image: @backgroundImage;
 }
 
 .navbar {
-    margin: 0;
+  margin: 0;
+  padding: 20px;
+  background-color: @navbarBgColor;
+  border: 0px;
+  border-radius: 0;
 
-    .navbar-inner {
-        padding: 20px;
-        background-color: @navbarBgColor;
-        background-image: none;
-        border: 0;
+  .navbar-brand {
+    padding: 0;
+    margin-top: 10px;
+     img {
+       width: 100px;
+     }
+  }
+
+  .navbar-toggle {
+    &:hover, &:focus {
+      background-color: #910000;
     }
-    
-    .brand {
-        padding: 0px;
+  }
 
-        img {
-            width: 100px;
-        }
-    }
+  .navbar-nav {
+    > li > a {
+      color: @navbarLinkColor;
+      background-color: @navbarBgColor;
 
-    .brand, .nav>li>a {
+      &:hover, &:focus {
         color: @navbarLinkColor;
-        font-weight: 300;
-
-        &:hover {
-            color: @navbarLinkColor;
-        }
+        background-color: #910000;
+      }
     }
+  }
 }
 
 #Wrapper {
-    min-height: 100%;
-    height: auto !important;
-    margin: 0 auto -80px;
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto -80px;
 }
 
 #Header {
-    text-align: center;
-    color: @headerColor;
+  text-align: center;
+  color: @headerColor;
 
-    background-color: @headerBgColor;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+  background-color: @headerBgColor;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 
-    .title {
-        font-family: @headerFont;
-    }
-    
-    .subtitle {
-        font-family: @contentFont;
-        font-weight: 300;
-    }
+  .title {
+    font-family: @headerFont;
+  }
+
+  .subtitle {
+    font-family: @contentFont;
+  }
 }
 
 #Content {
-    .container-fluid {
-        margin: 80px;
-    }
+  .container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
 
 #Callouts {
-    .callout {
-        text-align: center;
-    }
+  .callout {
+    text-align: center;
+  }
 }
 
 #AboutUs {
-    p {
-        text-align: justify;
-        max-width: @contentMaxWidth;
-    }
+  p {
+    text-align: justify;
+    max-width: @contentMaxWidth;
+  }
 
-    .lead {
-        text-align: left;
-    }
+  .lead {
+    text-align: left;
+  }
 }
 
 #Execs, #SpecialThanks {
-    .span2 {
-        text-align: center;
+  .col-md-2 {
+    text-align: center;
 
-        label {
-            color: @contentColor;
-            font-weight: bold;
+    label {
+      color: @contentColor;
+      font-weight: bold;
 
-            &:hover {
-                text-decoration: none;
-            }
-        }
+      &:hover {
+        text-decoration: none;
+      }
     }
+  }
 }
 
 #Events {
-    ul {
-        list-style-type: none;
-    }
-    .event {
-        max-width: @contentMaxWidth;
-        padding: 10px;
-        border: 1px solid @contentColor;
-        background: whitesmoke;
-        margin-bottom: 10px;
-    }
+  ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  .event {
+    max-width: @contentMaxWidth;
+    padding: 10px;
+    border: 1px solid @contentColor;
+    background: whitesmoke;
+    margin-bottom: 10px;
+  }
 }
 
 #Post  {
-    max-width: @contentMaxWidth;
+  max-width: @contentMaxWidth;
 }
 
 #Footer {
-    height: 80px;
-    background-color: @footerBgColor;
+  height: 80px;
+  background-color: @footerBgColor;
 
-    .container-fluid .row-fluid {
-        margin-top: 20px;
-    }
+  .container .row {
+    margin-top: 20px;
+  }
 }
 
 #FooterFix {
-    height: 80px;
+  height: 80px;
 }
 
 #FooterSocial {
-    text-align: center;
+  text-align: center;
 
-    a, a:hover {
-        color: @footerColor;
-        text-decoration: none;
-        margin: 0 5px;
-    }
+  a, a:hover {
+    color: @footerColor;
+    text-decoration: none;
+    margin: 0 5px;
+  }
 }
 
