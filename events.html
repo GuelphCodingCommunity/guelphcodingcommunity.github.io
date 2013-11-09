@@ -8,7 +8,7 @@ title: Events
       {% for post in site.categories.events %}
         <li class="event">
           <h1>{{ post.title }}</h1>
-          <strong><i class="icon-calendar"></i> {{ post.eventinfo.date }} @ {{ post.eventinfo.time }}</strong>
+          <strong><i class="fa fa-calendar"></i> {{ post.eventinfo.date }} @ {{ post.eventinfo.time }}</strong>
           <p>{{ post.excerpt }}</p>
           <a href="{{ post.url }}">View event</a>
         </li>
