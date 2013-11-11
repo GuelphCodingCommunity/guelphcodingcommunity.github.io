@@ -8,7 +8,7 @@ tags:
 category: news 
 ---
 
-##Event Run by: Jonathan Snowdon
+Event Run by Jonathan Snowdon
 
 ###Talks given by:
 * Ryan Nagy (Entrepreneurial Group)
@@ -25,12 +25,14 @@ This was another short 10 minute talk about CUSEC and what it entails. Essential
 
 ###Tips To Technical Interviews:
 
-This was an hour long interactive presentation that went through the 6 basic steps to completela very technical coding question in an interview. Followed by some questions to try out. Finally references to read were also provided. These references are also in this package.
+This was an hour long interactive presentation that went through the 6 basic steps to completela very technical coding question in an interview. Followed by some questions to try out. Finally references to read were also provided.
 
 ###Recommended Reading:
 
-* Programming Interviews Exposed (pdf provided)
-* Cracking the Coding Interview (pdf provided)
-* leetcode.com (website)
-* careercup.com (website)
-* Practice question provided by Jordan Goldberg, current Microsoft employee. (pdf with questions provided)
+* Programming Interviews Exposed
+* Cracking the Coding Interview
+* [leetcode.com](http://leetcode.com)
+* [careercup.com](http://careercup.com)
+* Practice question provided by Jordan Goldberg, current Microsoft employee.
+
+Contact [Jon](mailto:jonathansnowdon2@gmail.com) for the interview package.
