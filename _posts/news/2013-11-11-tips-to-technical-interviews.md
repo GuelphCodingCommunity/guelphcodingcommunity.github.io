@@ -8,27 +8,24 @@ tags:
 category: news 
 ---
 
-Tips to Technical Interviews Synopsis
-=====================================
-
 ##Event Run by: Jonathan Snowdon
 
 ###Talks given by:
-* Ryan Nagy (Entraperial Group)
+* Ryan Nagy (Entrepreneurial Group)
 * Julian Horvat (CUSEC)
 * Jonathan Snowdon (Tips to Technical Interviews)
 
-###Entraperial Group:
+###Entrepreneurial Group:
 
-This was a short 5 minute talk about a new group on campus that deals with entrepreneurs, or people who want to become an entrepreneur. This is was shout out to invite any GCC members or affiliate to join or provide help. They are currently created a mobile app and were in need of some computer science/ software engineers. He left a sign up sheet, but if you are interested in getting in contact with him GCC can pass along his email upon request.
+This was a short 5 minute talk about a new group on campus that deals with entrepreneurs, or people who want to become an entrepreneur. This was a shout out to invite any GCC members or affiliate to join or provide help. They are currently creating a mobile app and are in need of some computer science/ software engineers. He left a sign up sheet, but if you are interested in getting in contact with him GCC can pass along his email upon request.
 
 ###CUSEC:
 
-This was another short 10 minute talk about CUSEC and what it entails. Essentially, cusec is an event in Montreal that has presentors from all over our industry field. Such as some talks from execs at twitter, GitHub, etc. Julian is running this years event, and is avalible for further information.
+This was another short 10 minute talk about CUSEC and what it entails. Essentially, CUSEC is an event in Montreal that has presenters from all over our industry field. Such as some talks from execs at Twitter, GitHub, etc. Julian is running this years event, and is avalible for further information.
 
 ###Tips To Technical Interviews:
 
-This was an hour long interactive presentation that went through the 6 basic steps to completely a very technical coding question in an interview. Followed by some questions to try out. Finally references to read, were also provided. These references are also in this package.
+This was an hour long interactive presentation that went through the 6 basic steps to completela very technical coding question in an interview. Followed by some questions to try out. Finally references to read were also provided. These references are also in this package.
 
 ###Recommended Reading:
 
