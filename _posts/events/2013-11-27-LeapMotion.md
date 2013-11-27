@@ -1,6 +1,6 @@
 ---
 layout: event 
-title:Leap Into Motion with Oliver Cook! + Intro to Javascript and the HTML canvas with Alex Pennells!
+title: Leap Into Motion with Oliver Cook! + Intro to Javascript and the HTML canvas with Alex Pennells!
 tags: 
 - Leap Motion
 - Alternative Input
