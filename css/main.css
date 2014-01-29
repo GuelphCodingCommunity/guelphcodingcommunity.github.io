@@ -88,16 +88,22 @@ body {
 #SpecialThanks .col-md-2 label:hover {
   text-decoration: none;
 }
-#Events ul {
+#Events ul,
+#News ul {
   list-style-type: none;
   padding: 0px;
 }
-#Events .event {
+#Events .post,
+#News .post {
   max-width: 675px;
   padding: 10px;
-  border: 1px solid #333333;
   background: whitesmoke;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
 }
 #Post {
   max-width: 675px;
