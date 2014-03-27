@@ -28,4 +28,4 @@ Setting up location services with Android
 
 Ever wanted to learn app development for Android devices but not sure where to begin? We will discuss some of the basics of app development for Android and teach you how to setup and use Google's API Console & Location services. The speaker for this event will be Corey Alexander. We look forward to having everyone come out and join us, and hopefully get started on your first Android app.
 
-####We'll also have two presentations by students in the CIS*2500 course on programs they have developed for their final assignment.
+###We'll also have two presentations by students in the CIS*2500 course on programs they have developed for their final assignment.
